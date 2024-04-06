@@ -112,7 +112,7 @@ function Clock(countdown, callback) {
   setTimeout(updateClock, 500);
 }
 
-var deadline = new Date("April 8, 2024 00:00:00 ");
+var deadline = new Date("April 27, 2024 00:00:00 ");
 var c = new Clock(deadline, function () {
   alert("countdown complete");
 });
